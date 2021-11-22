@@ -27,4 +27,48 @@ sanity testing  this testing is performend by testers
 smoke testing  is a subset of acceptance testing
 sanity testing  is a subset of regression testing
 
+3.)what is re testing and regression testing?
+
+Regression testing is testing existing software applications to make sure that a change or addition hasn't 
+broken any existing functionality.
+usually we do retesting in the following cases:
+
+new function are added
+change requirment (in the organization)
+Defect fixing
+performance issue fix
+environment changes (updated db from mysql to oracle)
+
+Retesting 
+To ensure that the defects which we were found in the earlier build were fixied or not in the current build
+
+4.) what is end to end testing
+testing overall functionalites of the system including the data integration amoung all the modules is called end to end testing
+
+5.)what is exploratory testing
+
+exploratory testing is all about discovering and investigation and learning
+testcases are not created in adnvanced but tester check the system on the fly
+the fouces of the exp testing is more about thinking activity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
