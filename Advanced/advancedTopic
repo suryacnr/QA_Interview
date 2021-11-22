@@ -1,0 +1,82 @@
+1.) what is the defult port used by selenium?
+4444
+if port 4444 is busy how to change the port no?
+
+we can use any port number which is valid . First creat an object to control remote config
+RemoteControlConfiguration r =new RemoteControlConfiguration();
+r.setPort(4567);
+
+2.) Difference between jxl and apachePoi?
+jxl does not support Xlsx file where apache poi support
+jxl exerts less load on memory  as compared to apachepoi
+jxl does not support rich text formatting where apache poi support
+jxl does not maintained properly while apache poi is up to date
+sample code is easly avilable where compared to jxl
+
+3.) difference between findelement and findElments?
+
+findelement : finds the first element within the current page using given element
+return singleelement
+findelements: finds all the element within the current page using "location mechanism"
+return the list of webElement
+
+4.) how to switch between frames?
+ webdriver's driver.switchTo().frame()  as three option we can use any of them to switch 
+ 
+ First one using A number - select the frames by its index(zero based ) index . that is if a web page as three frames the first
+ frmae would be 0 and secound  one would be 1 and so on Once the frames as been selected all the subsequent calls on the webdriver
+ interface would be made on that frame.
+ 
+ Secound one using A name  or ID - select the frame by its name or id -frames located by matching name attribute are always given
+ precedence  over those matched id 
+ Thireed one using A previously found element -
+ 
+5.) how to switch between the windows ?
+
+public void handlemultiple windows(String windowsTitle){
+    String window = driver.getWindowHanldes();
+    for(String wind:window){
+    driver.switchTo().window(wind);
+    if(driver.gettilte().contains(windowsTilte))
+    {return;}
+    }
+    }
+    
+  6.) explain SDLC and STLC
+  7.)Explain bug life cycle
+  8.) Difference between load and stress testing
+  9.) Tell 10 testcases  for item add to card for ecommerce application
+  10.) what is adhoc and exploratry testing
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
