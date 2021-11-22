@@ -1,2 +1,30 @@
-what is the differnece between findelement and findelements?
+1.)what is the differnece between findelement and findelements?
+
+findElement single webelement present returns single element 
+findElements  single webelement present returns single element
+
+findElement multiple  webelement present returns first element
+findElement multiple webelement present returns all element
+
+Element not present Throws no such elemnet exception
+Element not present does not throws any exception returns zero element
+
+Return type weblement ,  Return type List weblement 
+Acesss Direct , iterate list of webelement
+
+
+2.) what is sanity and smoke testing
+
+smoke testing verfies the criticl functionality of the application like start application
+sanity testing verfies the new functionality and bugs have been fixed or not
+
+smoke testing the objective of the testing is to verify the stability of the system in order to proceed with more rigorous tesing
+sanity testing the objective of the testing is to verify the rationality 
+
+smoke testing this testing is performend by testers and devlopers
+sanity testing  this testing is performend by testers
+
+smoke testing  is a subset of acceptance testing
+sanity testing  is a subset of regression testing
+
 
