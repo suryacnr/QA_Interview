@@ -42,11 +42,19 @@ public void handlemultiple windows(String windowsTitle){
     }
     }
     
-  6.) explain SDLC and STLC
-  7.)Explain bug life cycle
-  8.) Difference between load and stress testing
-  9.) Tell 10 testcases  for item add to card for ecommerce application
-  10.) what is adhoc and exploratry testing
+  6.) explain SDLC and STLC(tick)
+  7.)Explain bug life cycle(tick)
+  8.) Difference between load and stress testing(x)
+  9.) Tell 10 testcases  for item add to card for ecommerce application(x)
+  10.) what is adhoc and exploratry testing(tick)
+  11.)what is build acceptance testing
+      acceptance testing is nothing but an end to end testing done by customer to make sure that software is able handle
+      the customer requirments or not that is called acceptance testing is also called as RBT(Red box testing)
+  12.)what is data driven testing 
+  13.)how to classify a defect 
+  14.)explian about agile methodology
+  15.)what are the types of testing
+  
   
 
  
