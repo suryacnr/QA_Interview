@@ -51,7 +51,11 @@ public void handlemultiple windows(String windowsTitle){
       acceptance testing is nothing but an end to end testing done by customer to make sure that software is able handle
       the customer requirments or not that is called acceptance testing is also called as RBT(Red box testing)
   12.)what is data driven testing 
+      Data Driven Testing is a software testing method in which test data is stored in table or spreadsheet format.
+      Data driven testing allows testers to input a single test script that can execute tests for all test data from 
+      a table and expect the test output in the same table
   13.)how to classify a defect 
+  
   14.)explian about agile methodology
   15.)what are the types of testing
   
