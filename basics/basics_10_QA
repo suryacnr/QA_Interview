@@ -65,20 +65,34 @@ this testing is usually unplaned activity
 
       adhoc testing anyapplication
       exploratory testing anyapplication which is new to testers
-       
+8.) explain SDLC and STLC
+      SDLC ==>Requirment analysis==>Design==>Devlopment==>testing==> maintenance
+      STLC==>Requirment analysis==>Test Plane==>Test case Devlopment==>Environment setup==>Test execution==>Test cycle closure
+      
+      Sdlc is the complete devlopment process in that we have stlc
+      
+      
 
+9.)Explain bug life cycle
+ report the bug ==>is it not produceble or invalid ==No==>close the bug =Yess==>assign the priority and direct to concer dev
+ is Defect valid =No==> close the bug =Yes==>Need fix imediatley ?
+ =Yes==>Fix the bug=No==>Shedule defect for futre realse
+ Fix the bug ==>send for validation on new build==>validate the defect==>is defect fixed=Yes==>cloase the bug=No==>reject the defect
+ 
+ 
+ 10.)a)Low Severity and high priority 
+  Logo error can be low severity coz it cannot affect functionality but it can be high priority coz you dont want any furthur 
+  thing to proceed with wrong loga
 
-
-
-
-
-
-
-
-
-
-
-
+  if the user name is enetered wrong in login page it can be low severity as it is spelling mistake but high priority because
+  its high visiblity
+  b)high sevirty and low priority
+  if application crashes after mulitifle use of any functionality eg save button is creshed after 200 times than
+  it as high sevirty because appplication creshed but low priority because no need to debug right now
+  
+ c.) high sevirty with high priority
+  if application is not allowed to login with correct credintion than it has high priority with high severity
+  
 
 
 
