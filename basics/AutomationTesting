@@ -57,8 +57,15 @@ this testing is usually unplaned activity
 
 7.) differenc between exploratory testing and adhoc testing
 
+      adhoc testing tester should now the application functionality
+      exploratory testing tester doesnt now the application functionality
+      
+      adhoc testing intension is to break the application/ find out the corner defects 
+      exploratory testing intension is to explore the application
 
-
+      adhoc testing anyapplication
+      exploratory testing anyapplication which is new to testers
+       
 
 
 
