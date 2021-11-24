@@ -1,0 +1,38 @@
+1.)what is difference detween xpath and css selector?
+
+  *xpath allows bidirectional flows which the travel can be in both a ways like parent to child and child to parent
+  where css selector cannot means only parent to child
+ *xpath is slower in the terms of speed and perfermance where css selector is faster
+ * xpath allows identification with the help visable text apperaing on the screen with the help of text() function
+    css does not have this features
+ *there are twotypes of xpath absalute and relative but css does not have
+ *xpath expresstion represented by[//tagnamr[attribute='value] in css selector [tagnamr[attribute='value]
+ 
+ 2.) write the program to swap two numbers without using third party variable
+    with third variable
+    x =10;
+    y= 20;
+    int tem =x;
+    x=y;
+    y=tem;
+    without using third variable
+    int x= 10;
+    int y =20;
+    x =x+y; //30
+    y=x-y;//10
+    x=x-y;//20
+    
+3.) can we overrider private or static in java?
+      No we cannot ovrride private or static in java
+     private methods are not visable to other class in java
+ 4.)what are data proivder in testng?
+      The testng data providers is nothing but an annotation part contains only one single attribute which it is string type 
+      in nature
+      
+      if the tester doesnt specify the name the dataproivder than the method name becoume the dataproivder name by defult
+      
+      data provider are not declared on the top of function name like testng paramenters but they have the method of there own
+      
+      testng dataprovider retrn 2d list of object
+      
+ 5.) string reverse program without using inbuild function
