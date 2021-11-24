@@ -21,6 +21,10 @@
   
 10.) what is abstract 
     abstract is process of hidding the implementation details and show only fnctionality to the user
+  b.) what is abstract class?
+      abstract class is the class that is declared abstract it may or maynot include abstract method abstract class cannot 
+      be instanitiated but they can be subclass
+      an abstract method is a method which is declared without implementation
     
 11.) what is encapsulation?
       encapsulation in java is a process of wrapping the data and code together into a single unit for example a capsule which
@@ -32,7 +36,37 @@
       there are three major advantages of testng over junit
       annotation are easier to understand
       test cases can be grouped more esily
-      parllel testing is possiable
- 
+      parllel testing is possiableil
+13.) which are the various  keyboard action in selenium&how will you automate
+      Action class is a ability provided by selenium for handling keyboard and mouse events
+      sendKeys(), keyUp(), keydown(), Tab
+      
+14.) which are the various mouse action in selenium 
+      doublClick(): perform double click on the element
+      clickonHold(): perforn long click on the mouse without relising it
+      dragAnddrop(): 
+      moveToElement(): 
+      contaxtclick(): right click
+
+15.) how to handle alerts in selenium ?
+
+      there is a method called dismiss(): this method is used click cancel in alert
+      driver.switchTo().alert().dismiss();
+      there is a another method called accept(): this method is used click ok in alert
+      driver.switchTo().alert().accept();
+      String getText(); this method is used to get text from alert box
+      Webelemt element =driver.switchTo().alert();
+      String gettxt = element.getText();
+      element.sendkeys();
+ 16.) what is xpath?
+      xpath is also called as xml path is query language for xml
+      the can be effectivly used to identify and locate all the element on the page
+     Absolute xpath : absolute xpath starts from root node from html document
+     where Relative xpath does not starts froms root its starts from doble forword slash
+     
+17.)which xpath is beter?
+      one major disadvantages of absolute xpath is that if there is any changes in any of the element on webpage,
+      then xpath of any subsequent element will change
+      
       
     
