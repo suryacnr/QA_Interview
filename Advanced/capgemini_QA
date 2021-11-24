@@ -1,0 +1,38 @@
+1.)companents involved in test plan?
+2.)smoke testing vs sanity testing
+3.)difference between test cases and test scenario
+4.) what will yo call the type of testing which helps one to know about the application
+      Adaptability testing
+5.)what is defuct leakage?
+    defuct leakage is the matrize which helps to identify the efficency of the QA testing like how many defuts are missed and
+    slipped during the qa testing
+    Defuct leakage=(no of defuct found in UAT/no of defuct found By QA)
+6.)what is incremantal model ?
+7.) what is requirement traceability matrix?
+8.) what are different testing model
+    water model, v model, agile model, spiral model , iterative model, rad model
+8.)how to execute a particular test method for 5 times?
+    @Test(invocationCount =5)
+    
+9.) what is interface
+
+  an interface in java is blueprint of a class it as static as constant and abstract method 
+  interface as abstract method and variable but it cannot have method body
+  
+10.) what is abstract 
+    abstract is process of hidding the implementation details and show only fnctionality to the user
+    
+11.) what is encapsulation?
+      encapsulation in java is a process of wrapping the data and code together into a single unit for example a capsule which
+      is mixed to several medicins
+      we can also create a fully encapsulation class by making all the data members of the class to private now we can use
+      getter and setter method to set and get the data in
+      
+12.)Advantage of sing testng over junit?
+      there are three major advantages of testng over junit
+      annotation are easier to understand
+      test cases can be grouped more esily
+      parllel testing is possiable
+ 
+      
+    
