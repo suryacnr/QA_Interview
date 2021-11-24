@@ -5,3 +5,26 @@
 IBM 
 1.)how to select drop down menu in selenium automation?
 2.) which are the various selenium locators
+3.) API status code like 100 information,200 success,300 redirect error,400 client error,500 servererroe
+4.)test cases for atm mechine
+5.)what is method overloading?
+  if class as mulitfle method with same name but different in paramenters it is called as method overloading
+6.) how to get font size , color?
+  getcssvalue() is method to get the font size, font color font type for web page
+  eg: driver.findElement(by.xpath='').getcssvalue("Font-colour");
+7.)what are the waits avilabel in selenim?
+  explicitwait ==>Explicit waits are used to halt the execution until the time a particular condition is met or the
+  maximum time has elapsed
+  implicitwait==>impicit wait is applicable for all element in page untill we quit the browser it will wait untill if any dom 
+  is not loaded 
+  Fluentwait==> is also similar to webdriverwait with more flexiability in polling time and ignoring exceptions
+  polling time is nothing but it will check element for every 5 and if i say 30 sec timeout it will totally check for 6 times
+  and it will handle exception but explicitwait will not do that
+ 8.) what are the various types of selenium exceptions?
+   * ElementNotvisable Exception==> this exception accures when element in dom has feture set as hidden 
+   * NosuchElement Exception==>this exception accures when element could not be found
+   *ElementNotSelectable Exception==> this exception accures when element in dom is present but u can't able to select
+   *NosuchframeException==this exception accures when frame target does not exist
+   *ArrayIndexout of bound Exception ==>
+   *NoAlertFound Exception ==>this exception accures when you switch to no present alert 
+   
