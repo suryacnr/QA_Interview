@@ -1,0 +1,52 @@
+1.)advantage of extend report?
+  *They can be integrated with testng and junit
+  *if reqired screenshot can be captured and displayed for each step in a testcase
+  *they allow testers to track mutiple test case
+  runs. in single test suite
+  *they show the time needed for test execution
+  *they can be customized to graphically represent each step in a test
+2.) what are hooks in cucumber?
+3.) types of execptions?
+4.) what is background in cucumber?
+5.)what is testng? or explain testng?
+
+  *TestNg is a automation framework in which NG stands for"Next genration"
+  *Testng is inspired from junit uses the anotaions(@)
+  *Testng overcome the disadvantage of junit and it is designed to make end-to end testing easy
+  *using testng you can genarate a proper report
+  and you can easily come to now how many test cases are passed and faild and skiped
+  *you can execute the failed test cases separatly.
+
+ 6.) what is BVA and EP?
+ 	*Boundary value analysis is black box testing technique used to check the error at the boundry of an input domain
+ 	*the name comes from the boundry which means limts the area
+ 	*so BVA mainly focuses on testing both valid and invalid input paramaters for a given range of software components.
+
+ B.)what EP?
+ 	equivalence partitiong method is also known as equivalence class partition 
+ 	*ITs ia black box testing technique thats divides input domain into class of data and with the help of these classes of data, testcase can be drived
+sprinkler interview
+1.) explain agile methodology
+2.)how to classify defuct
+3.) what does test plan contains?
+
+A tesplan contains a product description, objective, teststrategies, scope ,shedule , procedures, testing resources, and delivarable
+
+the test plan determains the effort needed to validate the quilites of the application under test
+
+the test plan serves as blueprint to conduct software testing activites as a defined process
+
+
+infosys 
+1.) how to confirm which user loggedin?
+login with one user and navigate to profile page and perform gettext method 
+2.)what are the asserts in selenium what are differents between asserts and verify?
+
+Assert in selenium is used to verify and validating the scenarios under test. based on the result of the assert the outcome of the test can be decited 
+
+some of the widely used asserts categories in selenium are?
+
+assetequal 
+asserboolean
+assertnone
+assertidentical
