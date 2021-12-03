@@ -1,0 +1,30 @@
+1.) what is bench mark and base line?
+bench mark its all about calacting information about the software and comaring with other softwares
+
+base line testing its collecting information from prvius version and compering with older version
+
+2.) what are agile princple 
+
+there are 4 different princple 
+ * welcome change in requirments(Responding to changes)
+ *aglie team will adjust the behavier according to projects(working software)
+ *as you can probably imagine, there was a lot of contrast between what the developers created, what the contract said, and what the customer actually required.So this why we need (customer collaborates)
+ * collaboration within the team should be of high importance (indivdual and intrections)
+
+3.)what is differences between bdd and tdd frame work?
+
+4.) what is boundry value analyzis and equal partion?
+
+
+paytm questions:
+
+1.)verfiy the the string is palindrome or not
+2.)how to romove duplicate from the strings
+
+3.) what is the difference between windowhandle and get window handles?
+
+*getwindow handle will return the window handle of currently focused. Where getwindow handle will return all the window handles opened by same driver instance include parent and child window
+
+*return type is string for getwindowhandle where return type is set<string> in getwindowhandles 
+
+*getwindowhandles internaly uses inkedhashSet. so whatever Set it returns,it will give window handles in order its opend.
